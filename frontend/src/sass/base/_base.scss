@@ -1,0 +1,47 @@
+:root {
+    --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+    --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.3);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;       
+  box-sizing: inherit;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;   
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%; 
+  }
+
+  @include respond(tab-land) {
+    font-size: 75%;  
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 50%;
+}
+}
+
+body {
+  box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+

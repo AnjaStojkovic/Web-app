@@ -1,0 +1,33 @@
+.box-info {
+    height: 110vh;
+    background-image: linear-gradient(to right, rgba(white, 0.8), rgba(pink, 0.58)),
+    url(../../assets/flowers.avif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overview {
+    list-style: none;
+    
+    &__title {
+        text-align: center;
+        color: $color-violet;
+        font-weight: 700;
+        font-size: 2.2rem;
+        padding-bottom: .5rem;
+    }
+
+    &__paragraph {
+        text-align: center;
+        padding-bottom: 3rem;
+        font-style: italic;
+
+        &:not(:last-child) {
+            padding-bottom: 3rem;
+            margin: 0 35rem;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+//COLORS
+$color-primary: rgb(241, 241, 143);
+$color-primary-light: #FFFF00;
+$color-primary-dark: #008000;
+$color-primary-dark-2: #013b01f6;
+
+$color-first-light: #f4d32f;
+$color-first-dark: #ff7730;
+
+$color-second-light: #2998ff;
+$color-second-dark: #5643fa;
+
+$color-third-light: #7ed56f;
+$color-third-dark: #28b485;
+
+$color-grey-light-1: #f7f7f7;
+
+$color-pink: palevioletred;
+$color-green-light: #b9f395;
+$color-red-dark: rgb(135, 23, 23);
+$color-background: rgba(69, 163, 95, 0.24);
+$color-violet: rgb(130, 71, 130);
+
+$color-grey-light: #d4c2c2;
+$color-grey-light-2: #e8dada8a;
+$color-grey-light-3: #e4dcdc;
+$color-grey-dark: #777;
+$color-grey-dark-2: #333;
+$color-grey-dark-3: #312d2d;
+$color-white: #fff;
+$color-black: #000;
+$color-blue-light:rgba(207, 239, 244, 0.548);
+$color-blue-dark:rgba(19, 140, 164, 0.793);
+
+
+//FONT SIZES
+
+$default-font-size: 1.6rem;
+
+//GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+
+//BREAK POINTS
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100
+$bp-medium: 56.25em; //900
+$bp-small: 37.5em; //600
+$bp-smallest: 31.25em; //500
