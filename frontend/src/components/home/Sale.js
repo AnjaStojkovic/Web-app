@@ -30,7 +30,7 @@ import lipThree from '../../assets/lipThree.avif'
         size: '75 ml',
       },
       3: {
-        name: 'Sunscreen',
+        name: 'Cream',
         price: '$22',
         imageOne: sunOne,
         imageTwo: sunTwo,
