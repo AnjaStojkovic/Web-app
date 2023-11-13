@@ -121,3 +121,32 @@
       transform: translateY(0);
     }
   }
+
+  .btn-link {
+    color: $color-primary-dark-2;
+    font-size: 2rem;
+    font-style: italic;
+    padding-bottom: 2px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:hover {
+        color: $color-primary-dark;
+    }
+}
+
+.btn-back {
+  color: $color-primary-dark-2;
+  font-size: 3rem;
+  padding-bottom: 2px;
+  display: inline-block;
+  background-color: transparent;
+  cursor: pointer;
+  margin-top: 15rem;
+  margin-left: -28rem;
+
+  &:hover {
+      color: $color-white;
+  }
+}

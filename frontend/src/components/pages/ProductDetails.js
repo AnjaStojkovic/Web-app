@@ -4,6 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import grid1 from '../../assets/grid1.avif';
 import grid2 from '../../assets/grid2.avif';
 import './../../sass/main.scss';
+import { Link } from 'react-router-dom/dist';
 
 const ProductDetails = ({callbackFunction}) => {
 
@@ -118,6 +119,11 @@ const ProductDetails = ({callbackFunction}) => {
                                     onClick={() => goToEdit(product)}>
                                     Edit 
                                 </button>
+                            </td>
+                            <td className='column-two'>
+                               <Link className="btn-link" to="/all">
+                                        Back
+                               </Link>
                             </td>
                         </tr>
                         </>

@@ -35,7 +35,6 @@ const Overview = () => {
             </ul>
             <Link to='/' className='btn btn--pink'>Home page</Link>
         </div>
-      
     )
 
 }

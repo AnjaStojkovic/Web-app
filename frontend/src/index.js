@@ -5,10 +5,10 @@ import {
   HashRouter as Router,
   Routes,
 } from "react-router-dom";
-import HomePage from "./components/home/HomePage";
+import HomePage from "./components/pages/HomePage";
 import NotFound from "./components/NotFound";
 import { Container } from "react-bootstrap";
-import Login from "./components/Login/Login";
+import Login from "./components/pages/Login";
 import AddProduct from "./components/pages/AddProduct";
 import EditProduct from "./components/pages/EditProduct";
 import Popup from "./components/pages/Popup";

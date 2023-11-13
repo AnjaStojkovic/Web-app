@@ -4,7 +4,6 @@ import jwt_decode from "jwt-decode";
 
 var Axios = axios.create({
   baseURL: 'http://localhost:8080/api',
-  /* other custom settings */
 });
 
 Axios.interceptors.request.use(

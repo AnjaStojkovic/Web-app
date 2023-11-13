@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Form, Button, Row, Col} from "react-bootstrap";
 
 import {login} from '../../services/auth';
+import { Link } from "react-router-dom/dist";
 
 const Login = () => {
 
@@ -22,6 +23,7 @@ const Login = () => {
           </Form.Group>
           <Button className="login-user__button" variant="success" onClick={() => {login(username, password)}}>Log in</Button>
         </Form>
+        <Link className="btn-back" to="/">Home page </Link>
       </Col>
     </Row>
   );

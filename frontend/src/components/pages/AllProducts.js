@@ -17,6 +17,7 @@ import { logout } from "../../services/auth";
 import { Link, useNavigate } from 'react-router-dom';
 import Axios from '../../apis/Axios';
 import { useEffect, useState } from 'react';
+import Footer from '../home/Footer';
 
 const AllProducts = () => {
 
@@ -216,6 +217,7 @@ const AllProducts = () => {
                     </main>
                 </div>
             </div>
+            <Footer/>
         </>
     )
 }
