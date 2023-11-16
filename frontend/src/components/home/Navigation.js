@@ -19,6 +19,7 @@ const Navigation = () => {
                 <li className="navigation__item"><Link to="/overviews" className="navigation__link">About us</Link></li>
                 <li className="navigation__item"><Link to="/all" className="navigation__link">Products</Link></li>
                 <li className="navigation__item"><Link to="/comments" className="navigation__link">Comments</Link></li>
+                <li className="navigation__item"><Link to="/shop" className="navigation__link">Shop now</Link></li>
                 <li className="navigation__item"><Link to="/login" className="navigation__link">Login</Link></li>
                 </ul>
             </nav>

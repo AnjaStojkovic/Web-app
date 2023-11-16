@@ -17,6 +17,9 @@ import ProductDetails from "./components/pages/ProductDetails";
 import Comments from "./components/pages/Comments";
 import AllProducts from "./components/pages/AllProducts";
 import Overview from "./components/pages/Overview";
+import Shop from "./components/pages/Shop";
+import { Provider } from "react-redux";
+import store from "./store/my-store";
 
 const App = () => {
 
@@ -41,6 +44,7 @@ console.log(jwt)
               )} 
               <Route path="/sales" element={<Sale/>} />
               <Route path="/comments" element={<Comments/>} />
+              <Route path="/shop" element={<Shop/>} />
               <Route path="/popup/:productId" element={<Popup/>} />
               <Route path="/login" element={<Login/>}/>
               <Route path="*" element={<NotFound/>} />
@@ -55,5 +59,7 @@ const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
-    <App/>,
+  <Provider store={store}>
+    <App/>
+  </Provider>
 )
